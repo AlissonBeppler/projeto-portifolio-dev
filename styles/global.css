@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-/*cores*/
 :root {
+  /*cores*/
   --main-red: #E3646E;
   --main-purple: #BB72E9;
   --main-blue: #3996DB;
@@ -17,4 +17,12 @@
   --base-400: #292C34;
   --base-500: #16181D;
   --base-600: #0D0E11;
+
+  /*fontes*/
+  --h1: bold 56px/120% "Asap", sans-serif;
+  --h2: bold 24px/120% "Asap", sans-serif;
+  --h3: bold 16px/120% "Asap", sans-serif;
+  --subtitle: 400 20px/120% "Inconsolata", monospace;
+  --text-md: 400 16px/140% "Maven Pro", sans-serif;
+  --text-sm: 400 14px/140% "Maven Pro", sans-serif;
 }
