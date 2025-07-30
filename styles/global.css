@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*cores*/
+:root {
+  --main-red: #E3646E;
+  --main-purple: #BB72E9;
+  --main-blue: #3996DB;
+  --main-green: #82BC4F;
+  --main-yellow: #EABD5F;
+  --base-100: #E2E4E9;
+  --base-200: #C0C4CE;
+  --base-300: #878EA1;
+  --base-400: #292C34;
+  --base-500: #16181D;
+  --base-600: #0D0E11;
+}
