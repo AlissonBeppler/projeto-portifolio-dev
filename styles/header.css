@@ -1,0 +1,34 @@
+header {
+  background-image: url(/assets/images/Background_Intro.png);
+  background-size: 100% 100%;
+}
+
+#container {
+  padding: 120px 163px 183px;
+}
+
+#intro {
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+#title {
+  margin: 0px 180px 80px;
+}
+
+#img {
+  display: flex;
+  justify-content: center;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 143px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
