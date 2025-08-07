@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-4-lin{
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+  "d";
+}

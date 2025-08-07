@@ -27,3 +27,43 @@
   --text-sm: 400 14px/140% "Maven Pro", sans-serif;
 }
 
+.container {
+  padding-inline: 163px;
+  width: 1366px;
+  margin-inline: auto;
+}
+
+.subtitle {
+  font: var(--subtitle);
+  justify-self: center;
+}
+
+.h1 {
+  font: var(--h1);
+  justify-self: center;
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.main-red {
+  color: var(--main-red);
+}
+
+.base-100 {
+  color: var(--base-100);
+}
+
+.base-200 {
+  color: var(--base-200);
+}
+
+.base-300 {
+  color: var(--base-300);
+}
+

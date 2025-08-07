@@ -3,32 +3,48 @@ header {
   background-size: 100% 100%;
 }
 
-#container {
-  padding: 120px 163px 183px;
-}
-
 #intro {
-  max-width: 1040px;
-  margin-inline: auto;
+  width: 1040px;
+  justify-items: center;
 }
 
 #title {
-  margin: 0px 180px 80px;
+  width: 680px;
+  justify-items: center;
 }
 
 #img {
-  display: flex;
-  justify-content: center;
+  grid-area: a;
+  justify-self: center;
+}
+
+#name {
+  grid-area: b;
+  justify-self: center;
+}
+
+h1 {
+  grid-area: c;
+  justify-self: center;
+}
+
+#about {
+  grid-area: d;
+  justify-self: center;
+  align-self: center;
 }
 
 .tags {
-  display: flex;
-  justify-content: space-between;
-  margin-inline: 143px;
+  gap: 16px;
 }
 
 .tag {
-  display: flex;
-  align-items: center;
+  padding: 8px 16px;
   gap: 8px;
+  background-color: var(--base-400);
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
 }
