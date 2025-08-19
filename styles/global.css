@@ -28,9 +28,9 @@
 }
 
 .container {
-  padding-inline: 163px;
   width: 1366px;
   margin-inline: auto;
+  border: solid 1px red
 }
 
 .subtitle {
@@ -41,6 +41,15 @@
 .h1 {
   font: var(--h1);
   justify-self: center;
+}
+
+.h2 {
+  font: var(--h2);
+  justify-self: center;
+}
+
+.h3 {
+  font: var(--h3);
 }
 
 .text-md {

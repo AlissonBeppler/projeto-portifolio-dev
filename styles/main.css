@@ -1,0 +1,20 @@
+main {
+  background-color: var(--base-500)
+}
+
+.grid {
+  display: grid;
+}
+
+.grid2-3 {
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(2, 280px);
+  gap: 20px;
+}
+
+.img-size {
+  width: 306px;
+  height: 156px;
+}
+
+/* Não consegui ajustar as imagens dentro do container, preciso rever a aula. Parei aqui.*/
