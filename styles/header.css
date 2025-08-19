@@ -11,21 +11,25 @@ header {
 #title {
   width: 680px;
   justify-items: center;
+  padding-bottom: 80px;
 }
 
 #img {
   grid-area: a;
   justify-self: center;
+  padding-bottom: 56px;
 }
 
 #name {
   grid-area: b;
   justify-self: center;
+  padding-bottom: 8px;
 }
 
 h1 {
   grid-area: c;
   justify-self: center;
+  padding-bottom: 20px;
 }
 
 #about {
@@ -36,6 +40,7 @@ h1 {
 
 .tags {
   gap: 16px;
+  padding-bottom: 94px;
 }
 
 .tag {
@@ -47,4 +52,8 @@ h1 {
   align-items: center;
   width: auto;
   height: 40px;
+}
+
+#arrows {
+  padding-bottom: 57px;
 }
