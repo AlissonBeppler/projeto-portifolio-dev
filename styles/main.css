@@ -2,19 +2,39 @@ main {
   background-color: var(--base-500)
 }
 
-.grid {
-  display: grid;
-}
-
-.grid2-3 {
-  grid-template-columns: repeat(3, 330px);
-  grid-template-rows: repeat(2, 280px);
-  gap: 20px;
+#projects-title {
+  margin: 72px auto 56px;
 }
 
 .img-size {
   width: 306px;
   height: 156px;
+  justify-self: center;
+  margin: 12px 12px 20px;
 }
 
-/* Não consegui ajustar as imagens dentro do container, preciso rever a aula. Parei aqui.*/
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: var(--base-400);
+  border-radius: 12px;
+}
+
+.info {
+  padding: 0px 12px 17px;
+}
+
+main h3 {
+  padding: 4px;
+}
+
+main p {
+  padding: 4px;
+}
+
+#projects {
+  padding-bottom: 144px;
+}

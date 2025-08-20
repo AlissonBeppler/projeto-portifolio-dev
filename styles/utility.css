@@ -13,3 +13,10 @@
   "c"
   "d";
 }
+
+.grid2-3 {
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(2, 280px);
+  gap: 24px;
+  justify-content: center;
+}
