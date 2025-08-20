@@ -2,6 +2,10 @@ main {
   background-color: var(--base-500)
 }
 
+#projects {
+  padding-bottom: 144px;
+}
+
 #projects-title {
   margin: 72px auto 56px;
 }
@@ -28,13 +32,37 @@ img {
 }
 
 main h3 {
-  padding: 4px;
+  padding-block: 4px;
 }
 
 main p {
-  padding: 4px;
+  padding-block: 4px;
+}  
+
+/* -------- projects end ----------*/
+
+#services {
+  padding: 88px 0px 120px;
+  background-color: var(--base-600);
+  height: 480px;
 }
 
-#projects {
-  padding-bottom: 144px;
+.svcs-img {
+  width: 48px;
+  height: 48px;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.svcs-card {
+  border: solid 2px var(--base-500);
+  border-radius: 12px;
+}
+
+.svcs-info {
+  margin: 0px 20px 20px;
+}
+
+#services h2 {
+  padding-block: 8px 56px;
 }

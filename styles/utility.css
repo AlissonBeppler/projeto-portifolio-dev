@@ -20,3 +20,10 @@
   gap: 24px;
   justify-content: center;
 }
+
+.grid-3col{
+  grid-template-columns: repeat(3 , 280px);
+  justify-content: center;
+  height: 155px;
+  gap: 24px;
+}

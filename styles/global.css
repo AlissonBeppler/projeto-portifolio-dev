@@ -30,7 +30,7 @@
 .container {
   width: 1366px;
   margin-inline: auto;
-  border: solid 1px red
+  border: solid red 1px;
 }
 
 .subtitle {
