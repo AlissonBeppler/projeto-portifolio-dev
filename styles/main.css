@@ -25,6 +25,11 @@ img {
 .card {
   background-color: var(--base-400);
   border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  border: 1px solid var(--base-300);
 }
 
 .info {

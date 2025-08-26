@@ -13,7 +13,7 @@
   --main-yellow: #EABD5F;
   --base-100: #E2E4E9;
   --base-200: #C0C4CE;
-  --base-300: #878EA1;
+  --base-300: #878ea1;
   --base-400: #292C34;
   --base-500: #16181D;
   --base-600: #0D0E11;
@@ -79,3 +79,6 @@
   color: var(--base-300);
 }
 
+.base-400 {
+  color: var(--base-400);
+}

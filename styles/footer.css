@@ -40,3 +40,7 @@ footer {
 .contact-card span {
   margin-right: auto;
 }
+
+.contact-card:hover {
+  border: solid 2px var(--main-blue);
+}
