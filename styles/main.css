@@ -69,25 +69,3 @@ main p {
 
 
 /* ------------- services end ------------*/
-
-#contact {
-  padding: 128px 120px 200px 120px;
-}
-
-#contact-info h2 {
-  padding-block: 8px;
-}
-
-#contact-info p {
-  justify-self: center;
-  padding-bottom: 48px;
-}
-
-#contact-cards {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-card img {
-  color: #878EA1;
-}
