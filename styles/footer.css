@@ -32,6 +32,7 @@ footer {
   height: 68px;
   align-items: center;
   padding: 20px;
+  border: solid 2px transparent;
   border-radius: 8px;
   gap: 12px;
   background-color: var(--base-400);
@@ -43,4 +44,44 @@ footer {
 
 .contact-card:hover {
   border: solid 2px var(--main-blue);
+}
+
+.contact-card:hover #hover1 {
+  background-image: url(../assets/icons/linkedin-logo-hover.svg);
+}
+
+.contact-card:hover #hover2 {
+  background-image: url(../assets/icons/instagram-logo-hover.svg);
+}
+
+.contact-card:hover #hover3 {
+  background-image: url(../assets/icons/github-logo-hover.svg);
+}
+
+.contact-card:hover #hover4 {
+  background-image: url(../assets/icons/envelope-simple-hover.svg);
+}
+
+#hover1 {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/linkedin-logo.svg);
+}
+
+#hover2 {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/instagram-logo.svg);
+}
+
+#hover3 {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/github-logo.svg);
+}
+
+#hover4 {
+  width: 28px;
+  height: 28px;
+  background-image: url(../assets/icons/envelope-simple.svg);
 }
